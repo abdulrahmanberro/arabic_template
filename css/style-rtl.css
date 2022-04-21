@@ -1,0 +1,302 @@
+body {
+  direction: rtl;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  text-align: right;
+  overflow-x: hidden;
+}
+
+:root {
+  --mainColor: #ffc527;
+}
+
+.navbar {
+  box-shadow: 0 10px 25px 0 rgb(0 0 0 / 10%);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 1px;
+}
+
+.home {
+  height: 600px;
+  background-size: cover;
+  background-image: url('../images/slide-bg-1.jpg');
+  padding: 1px;
+  position: relative;
+  top: 60px;
+}
+
+.home-item {
+  width: 50%;
+  margin-right: auto;
+  margin-top: 15%;
+}
+
+.home-item h2 {
+  color: white;
+  font-size: 45px;
+}
+
+.home-item p {
+  color: white;
+  font-size: 23px;
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.section-title {
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  top: 50px;
+  right: 0;
+  width: 90px;
+  height: 3px;
+  background-color: var(--mainColor);
+}
+
+@media (max-width: 768px) {
+  .home-item {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .home-item {
+    position: relative;
+    bottom: 50px;
+  }
+  .section2-img {
+    margin-top: 20px;
+  }
+  .home {
+    height: 400px;
+  }
+  .news {
+    padding-bottom: 20px;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .subsucribe-item p {
+    max-width: 650px;
+  }
+  .form button {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 987px) {
+  .home-item {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .section2-img {
+    margin-top: 20px;
+  }
+  .home {
+    height: 400px;
+  }
+
+  .why-choose-us-item img {
+    width: 100%;
+    height: 100%;
+  }
+  .why-choose-us-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .heart-item h3,
+  .heart-item,
+  .heart-item p {
+    position: relative;
+    margin-right: 20px;
+    max-width: 250px;
+  }
+
+  .jbm {
+    flex-direction: column;
+  }
+  .jbm a {
+    margin-bottom: 10px;
+  }
+  .musharakat {
+    text-align: center;
+  }
+  .pagination {
+    left: 34%;
+  }
+}
+
+.news {
+  background: rgb(238, 238, 238);
+}
+
+.news-left {
+  display: flex;
+}
+
+.news-left img {
+  margin-left: 10px;
+}
+
+.no-spacing {
+  position: relative;
+  left: 15px;
+}
+
+.why-choose-us-item {
+  display: flex;
+  position: relative;
+}
+
+.single-icon {
+  background: #ffc527 none repeat scroll 0 0;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  height: 60px;
+  left: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 60px;
+}
+.single-icon {
+  right: 0;
+  left: auto;
+}
+
+.heart-item,
+.single-icon {
+  margin-top: 20px;
+}
+
+.heart-item h3,
+.heart-item p {
+  position: relative;
+  right: 55px;
+  max-width: 300px;
+}
+
+.subsucribe {
+  background-image: url('/images/subscribe-our-newsletter-bg.jpg');
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.subsucribe-item h2 {
+  font-size: 50px;
+  color: white;
+}
+
+.subsucribe-item p {
+  color: white;
+  font-size: 25px;
+}
+
+.subsucribe-item input {
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+  border: medium none transparent;
+  border-radius: 100px;
+  height: 45px;
+  padding: 0 20px;
+  width: 80%;
+}
+
+.subsucribe-item button {
+  background: #ffc527 none repeat scroll 0 0;
+  border: medium none transparent;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 15px;
+  height: 45px;
+  padding: 0 25px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  background: #071c33;
+  color: white;
+}
+
+.footer-logo {
+  background: #fff;
+  color: #222;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+footer input {
+  border: medium none transparent;
+  border-radius: 100px;
+  height: 45px;
+  padding: 0 14px;
+  width: 100%;
+}
+footer button {
+  background: #ffc527;
+  border: 1px solid #ffc527;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 15px;
+  height: 45px;
+  padding: 0 29px;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  transform: translate(-20%, 23.5%);
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.breadcrumb {
+  justify-content: flex-end;
+}
+
+.jbm {
+  display: flex;
+}
+
+.pagination {
+  width: 100%;
+  margin: 10px;
+}
+
+.input-group-text {
+  color: var(--mainColor);
+}
+
+.tags {
+  position: relative;
+  top: 135;
+}
