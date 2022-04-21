@@ -20,7 +20,7 @@ body {
 .home {
   height: 600px;
   background-size: cover;
-  background-image: url('../images/slide-bg-1.jpg');
+  background-image: url('images/slide-bg-1.jpg');
   padding: 1px;
   position: relative;
   top: 60px;
@@ -186,7 +186,7 @@ body {
 }
 
 .subsucribe {
-  background-image: url('/images/subscribe-our-newsletter-bg.jpg');
+  background-image: url('images/subscribe-our-newsletter-bg.jpg');
   height: 500px;
   display: flex;
   justify-content: center;
