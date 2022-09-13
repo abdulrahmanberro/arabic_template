@@ -1,6 +1,6 @@
 body {
   direction: rtl;
-  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-family: "Noto Kufi Arabic", sans-serif;
   text-align: right;
   overflow-x: hidden;
 }
@@ -20,7 +20,7 @@ body {
 .home {
   height: 600px;
   background-size: cover;
-  background-image: url('../images/slide-bg-1.jpg');
+  background-image: url("../images/slide-bg-1.jpg");
   padding: 1px;
   position: relative;
   top: 60px;
@@ -51,7 +51,7 @@ body {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0px;
   top: 50px;
@@ -59,6 +59,10 @@ body {
   width: 90px;
   height: 3px;
   background-color: var(--mainColor);
+}
+
+.ni {
+  list-style-type: circle;
 }
 
 @media (max-width: 768px) {
@@ -195,7 +199,7 @@ body {
 }
 
 .subsucribe {
-  background-image: url('../images/subscribe-our-newsletter-bg.jpg');
+  background-image: url("../images/subscribe-our-newsletter-bg.jpg");
   height: 500px;
   display: flex;
   justify-content: center;
