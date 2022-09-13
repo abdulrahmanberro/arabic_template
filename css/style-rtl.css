@@ -62,7 +62,7 @@ body {
 }
 
 .ni {
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 @media (max-width: 768px) {
@@ -93,7 +93,7 @@ body {
     margin-top: 20px;
   }
   .ni {
-    list-style-type: none;
+    list-style-type: circle;
   }
 }
 
@@ -138,7 +138,7 @@ body {
     left: 34%;
   }
   .ni {
-    list-style-type: none;
+    list-style-type: circle;
   }
 }
 
@@ -150,7 +150,7 @@ body {
     width: 0%;
   }
   .ni {
-    list-style-type: none;
+    list-style-type: circle;
   }
 }
 
